@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProniaBB209.DAL;
 using ProniaBB209.Models;
 //using ProniaBB209.Services;
@@ -19,61 +20,18 @@ namespace ProniaBB209.Controllers
 
         public IActionResult Index()
         {
-            Product product = new Product();
-            Category category = new Category();
-
-
-
-
-            //List<Slide> slides = new List<Slide> 
-            //{ new Slide
-            //{
-            //    Title="Basliq 1",
-            //    Subtitle="Komekci basliq 1",
-            //    Describtion="Gullerden qalmadi",
-            //     Order=2,
-            //    Image="1-1-524×617.png",
-
-            //    CreateAt=DateTime.Now
-            //},
-
-            //new Slide
-            //{
-            //    Title="Basliq 2",
-            //    Subtitle="Komekci basliq 2",
-            //    Describtion="Agacin biri sadece 1 manat",
-            //    Order=3,
-            //    Image="tree.jpg",
-            //    CreateAt=DateTime.Now
-            //},
-
-            //new Slide
-            //{
-            //    Title="Basliq 3",
-            //    Subtitle="Komekci basliq 3",
-            //    Describtion="Dag gulu",
-            //     Order=1,
-            //    Image="1-2-524×617.png",
-            //    CreateAt=DateTime.Now
-            //}
-
-            //};
-
-            //AppDbContext context = new AppDbContext();
-
-            //_context.Slides.AddRange(slides);
-            //_context.SaveChanges();
-
+          
 
             HomeVM homeVM = new HomeVM 
             {
-                // Slides = slides.OrderBy(s => s.Order).ToList()
-                // Slides = slides.Take(2).ToList()
+             
 
                 Slides = _context.Slides.OrderBy(s => s.Order).Take(2).ToList(),
-               Products = _context.Products.Take(2).ToList()
+               Products = _context.Products.Take(13).
+               Include(p => p.ProductImages.Where(pi=>pi.IsPrimary!=null))
+               .ToList()
 
-               //SQLde nese error var deye hec cure SQLde cedvellerimi gore bilmirem,  ardini Error duzeltdikden sonra commit atib duzeldecem:)
+             
 
             };
 

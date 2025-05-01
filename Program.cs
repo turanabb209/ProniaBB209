@@ -11,7 +11,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(opt=>
 {
-    opt.UseSqlServer("server=msi;database=ProniaBB209;trusted_connection=true;integrated security=true;TrustServerCertificate=true; ");
+    opt.UseSqlServer("server=(localdb)\\MSSQLLocalDB;database=ProniaBB209;trusted_connection=true;integrated security=true;TrustServerCertificate=true;");
 
 });
 
