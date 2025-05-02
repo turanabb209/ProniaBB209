@@ -16,27 +16,28 @@ namespace ProniaBB209.Controllers
         public IActionResult Index()
         {
             return View();
-        }
+        } 
 
-        public IActionResult Detail(int? id)
+        public async Task<IActionResult> Detail(int? id)
         {
             if (id is null || id <= 0) return BadRequest();
 
-            Product? product = _context.Products
-                .Include(p=>p.ProductImages.OrderByDescending(pi=>pi.IsPrimary))
+            Product? product = await _context.Products
+                .Include(p => p.ProductImages.OrderByDescending(pi => pi.IsPrimary))
                 .Include(p => p.Category)
-                .FirstOrDefault(p => p.Id == id);
+                .FirstOrDefaultAsync(p => p.Id == id);
 
-            if (id is null) return NotFound();
+            if (product is null) return NotFound();
+
 
             DetailVM detailVM = new DetailVM
             {
                 Product = product,
-                RelatedProducts = _context.Products
+                RelatedProducts =await _context.Products
                 .Where(p => p.CategoryId == product.CategoryId && p.Id!=product.Id)
                 .Take(8)
                 .Include(p => p.ProductImages.Where(pi=>pi.IsPrimary!=null))
-                .ToList()
+                .ToListAsync()
 
 
 

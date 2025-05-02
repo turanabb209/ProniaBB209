@@ -11,7 +11,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(opt=>
 {
-    opt.UseSqlServer("server=(localdb)\\MSSQLLocalDB;database=ProniaBB209;trusted_connection=true;integrated security=true;TrustServerCertificate=true;");
+    //opt.UseSqlServer(builder.Configuration["ConnectionStrings:Default"]);
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 
 });
 
@@ -20,6 +21,17 @@ builder.Services.AddDbContext<AppDbContext>(opt=>
 var app = builder.Build();
 
 app.UseStaticFiles();
+
+//admin
+
+app.MapControllerRoute(
+    "admin",
+    "{area=exists}}/{controller=home}/{action=index}/{id?}"
+    );
+app.Run();
+
+
+//user
 
 app.MapControllerRoute(
     "default",

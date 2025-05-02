@@ -18,7 +18,7 @@ namespace ProniaBB209.Controllers
             //_service = service;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
           
 
@@ -26,10 +26,15 @@ namespace ProniaBB209.Controllers
             {
              
 
-                Slides = _context.Slides.OrderBy(s => s.Order).Take(2).ToList(),
-               Products = _context.Products.Take(13).
+                Slides = await _context.Slides
+                .OrderBy(s => s.Order)
+                .Take(2)
+                .ToListAsync(),
+
+               Products = await _context.Products
+               .Take(13).
                Include(p => p.ProductImages.Where(pi=>pi.IsPrimary!=null))
-               .ToList()
+               .ToListAsync()
 
              
 
