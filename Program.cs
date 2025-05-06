@@ -20,15 +20,13 @@ builder.Services.AddDbContext<AppDbContext>(opt=>
 
 var app = builder.Build();
 
-app.UseStaticFiles();
 
 //admin
 
 app.MapControllerRoute(
     "admin",
-    "{area:exists}--/{controller=home}/{action=index}/{id?}"
+    "{area:exists}/{controller=home}/{action=index}/{id?}"
     );
-app.Run();
 
 
 //user
@@ -37,6 +35,7 @@ app.MapControllerRoute(
     "default",
     "{controller=home}/{action=index}/{id?}"
     );
+app.UseStaticFiles();
 app.Run();
 
 

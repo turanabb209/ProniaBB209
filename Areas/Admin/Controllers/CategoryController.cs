@@ -20,7 +20,7 @@ namespace ProniaBB209.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<Category> categories = await _context.Categories.Include(c=>c.Products).AsNoTracking().ToListAsync();
+            List<Category> categories = await _context.Categories.Where(c=>c.IsDeleted==false).Include(c=>c.Products).AsNoTracking().ToListAsync();
 
 
 
@@ -86,7 +86,7 @@ namespace ProniaBB209.Areas.Admin.Controllers
             }
 
 
-            Category existed = await _context.Categories.FirstOrDefaultAsync(c => c.Id ==id);
+            Category? existed = await _context.Categories.FirstOrDefaultAsync(c => c.Id ==id);
 
             if(existed.Name==category.Name) return RedirectToAction(nameof(Index));
 
@@ -97,6 +97,46 @@ namespace ProniaBB209.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+
+        public async Task<IActionResult> Delete( int? id)
+        {
+            if(id is null || id <=0) return BadRequest();
+
+            Category? category = await _context.Categories.FirstOrDefaultAsync(c=>c.Id==id);
+
+            if (category is null) return NotFound();
+
+            //if (category.IsDeleted)
+            //{
+            //    category.IsDeleted = false;
+            //}
+            //else
+            //{
+            //    category.IsDeleted = true;
+            //}
+
+            //omurluk silmek ucun:
+
+            _context.Categories.Remove(category);
+
+
+               
+
+            await _context.SaveChangesAsync();
+
+            // return RedirectToAction($"{nameof(Index)} deleted");
+
+            return RedirectToAction(nameof(Index));
+
+
+
+
+
+        }
+
+
+
 
     }
 }
