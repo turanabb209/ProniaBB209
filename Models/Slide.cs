@@ -15,10 +15,9 @@ namespace ProniaBB209.Models
 
         //Order vasitesile siralayacam
         public int Order { get; set; }
-        //SQle cevirmemek ucun Notmappedden istifade olunur, yeni ancaq c# terefde olsun deye
-        [NotMapped]
-        public IFormFile Photo { get; set; }
-      
+        
+        
+
 
     }
 }
