@@ -29,7 +29,6 @@ namespace ProniaBB209.Controllers
 
             if (product is null) return NotFound();
 
-
             DetailVM detailVM = new DetailVM
             {
                 Product = product,
@@ -38,14 +37,8 @@ namespace ProniaBB209.Controllers
                 .Take(8)
                 .Include(p => p.ProductImages.Where(pi=>pi.IsPrimary!=null))
                 .ToListAsync()
-
-
-
             };
-
-
             return View(detailVM);
         }
-
     }
 }

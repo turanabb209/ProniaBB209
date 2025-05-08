@@ -1,16 +1,25 @@
-﻿@model Slide
+﻿@using ProniaBB209.ViewModels.Slides
+@model UpdateSlideVM
 <div class="row">
 
     <div class="col-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Update Category</h4>
+                <h4 class="card-title">Update Slide</h4>
 
-                <form method="post" class="forms-sample">
+                <form method="post" enctype="multipart/form-data" class="forms-sample">
+                    <img style="width:200px;height:150px;" src="~/assets/images/website-images/@Model.Image"/>
+                    <input type="hidden" asp-for="Image"  class="form-control" >
                     <div class="form-group">
-                        <label for="exampleInputName1">Title</label>
+                        <label asp-for="Photo">Image</label>
 
-                        <input asp-for="Title" class="form-control" id="name" placeholder="Title">
+                        <input asp-for="Photo" accept="image/*" class="form-control" placeholder="Image">
+                        <span class="text-danger" asp-validation-for="Photo"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Title">Title</label>
+
+                        <input asp-for="Title" class="form-control" placeholder="Title">
                         <span class="text-danger" asp-validation-for="Title"></span>
                     </div>
 
@@ -27,18 +36,14 @@
                         <input asp-for="Order" class="form-control" placeholder="Order">
                         <span class="text-danger" asp-validation-for="Order"></span>
                     </div>
-                    <div class="form-group">
-                        <label asp-for="Image">Image</label>
-
-                        <input asp-for="Image" class="form-control" placeholder="Image">
-                        <span class="text-danger" asp-validation-for="Image"></span>
-                    </div>
+                   
                     <div class="form-group">
                         <label asp-for="Describtion">Describtion</label>
 
                         <textarea rows="7" asp-for="Describtion" class="form-control" placeholder="Describtion"></textarea>
                         <span class="text-danger" asp-validation-for="Describtion"></span>
                     </div>
+
                     <button type="submit" class="btn btn-primary me-2">Submit</button>
                     <button class="btn btn-light">Cancel</button>
                 </form>
@@ -46,3 +51,4 @@
         </div>
     </div>
 </div>
+

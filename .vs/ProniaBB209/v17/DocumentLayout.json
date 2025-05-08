@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|c:\\users\\dersu\\onedrive\\desktop\\proniabb209\\areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|c:\\users\\dersu\\onedrive\\desktop\\proniabb209\\areas\\admin\\views\\slide\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:areas\\admin\\views\\slide\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,20 +15,16 @@
       "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:areas\\admin\\views\\slide\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|c:\\users\\dersu\\onedrive\\desktop\\proniabb209\\viewmodels\\slides\\getslidevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:viewmodels\\slides\\getslidevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|c:\\users\\dersu\\onedrive\\desktop\\proniabb209\\viewmodels\\slides\\updateslidevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:viewmodels\\slides\\updateslidevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|c:\\users\\dersu\\onedrive\\desktop\\proniabb209\\viewmodels\\slides\\createslidevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:viewmodels\\slides\\createslidevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|c:\\users\\dersu\\onedrive\\desktop\\proniabb209\\models\\slide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:models\\slide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|c:\\users\\dersu\\onedrive\\desktop\\proniabb209\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|c:\\users\\dersu\\onedrive\\desktop\\proniabb209\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08EF6AE7-3167-4616-8EBB-505B1CC6AB03}|ProniaBB209.csproj|solutionrelative:areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,103 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FileValidator.cs",
-              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Utilities\\Extensions\\FileValidator.cs",
-              "RelativeDocumentMoniker": "Utilities\\Extensions\\FileValidator.cs",
-              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Utilities\\Extensions\\FileValidator.cs",
-              "RelativeToolTip": "Utilities\\Extensions\\FileValidator.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwEAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T02:32:54.634Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "ViewState": "AgIAACYAAAAAAAAAAAAuwDUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T04:06:21.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetSlideVM.cs",
-              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\ViewModels\\Slides\\GetSlideVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\Slides\\GetSlideVM.cs",
-              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\ViewModels\\Slides\\GetSlideVM.cs",
-              "RelativeToolTip": "ViewModels\\Slides\\GetSlideVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:52:20.821Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Update.cshtml",
-              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Slide\\Update.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwCEAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T03:49:09.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Create.cshtml",
               "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T03:32:46.148Z",
+              "WhenOpened": "2025-05-08T08:32:50.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Update.cshtml",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Slide\\Update.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T08:28:11.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreateSlideVM.cs",
               "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\ViewModels\\Slides\\CreateSlideVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\Slides\\CreateSlideVM.cs",
               "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\ViewModels\\Slides\\CreateSlideVM.cs",
               "RelativeToolTip": "ViewModels\\Slides\\CreateSlideVM.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:23:41.55Z",
+              "WhenOpened": "2025-05-08T08:25:39.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Slide.cs",
-              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Models\\Slide.cs",
-              "RelativeDocumentMoniker": "Models\\Slide.cs",
-              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Models\\Slide.cs",
-              "RelativeToolTip": "Models\\Slide.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBEAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UpdateSlideVM.cs",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\ViewModels\\Slides\\UpdateSlideVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Slides\\UpdateSlideVM.cs",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\ViewModels\\Slides\\UpdateSlideVM.cs",
+              "RelativeToolTip": "ViewModels\\Slides\\UpdateSlideVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:13:39.597Z",
+              "WhenOpened": "2025-05-08T08:25:01.102Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -148,9 +100,22 @@
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SlideController.cs",
               "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Controllers\\SlideController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\SlideController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwCMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAowI8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T02:31:04.17Z",
+              "WhenOpened": "2025-05-08T08:21:07.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\ProniaBB209\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:23:23.298Z",
               "EditorCaption": ""
             }
           ]
